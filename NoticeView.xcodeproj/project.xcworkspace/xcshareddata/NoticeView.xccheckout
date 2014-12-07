@@ -10,29 +10,29 @@
 	<string>NoticeView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9ADE7216-4C90-4E47-810B-399387C11BA4</key>
-		<string>https://github.com/tciuro/NoticeView</string>
+		<key>3D778F7CD292590BBD972B38C606FBC16DA86F6F</key>
+		<string>https://github.com/MarcusSky/NoticeView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>NoticeView.xcodeproj/project.xcworkspace</string>
+	<string>NoticeView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9ADE7216-4C90-4E47-810B-399387C11BA4</key>
+		<key>3D778F7CD292590BBD972B38C606FBC16DA86F6F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/tciuro/NoticeView</string>
+	<string>https://github.com/MarcusSky/NoticeView.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9ADE7216-4C90-4E47-810B-399387C11BA4</string>
+	<string>3D778F7CD292590BBD972B38C606FBC16DA86F6F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9ADE7216-4C90-4E47-810B-399387C11BA4</string>
+			<string>3D778F7CD292590BBD972B38C606FBC16DA86F6F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>NoticeView</string>
 		</dict>

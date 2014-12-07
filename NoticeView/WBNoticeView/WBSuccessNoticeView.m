@@ -37,8 +37,6 @@
     float titleYOrigin = 18.0;
     self.titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(55.0 + (self.contentInset.left), titleYOrigin + (self.contentInset.top), viewWidth - 70.0 - (self.contentInset.right+self.contentInset.left) , 16.0)];
     self.titleLabel.textColor = [UIColor whiteColor];
-    self.titleLabel.shadowOffset = CGSizeMake(0.0, -1.0);
-    self.titleLabel.shadowColor = [UIColor blackColor];
     self.titleLabel.font = [UIFont boldSystemFontOfSize:14.0];
     self.titleLabel.backgroundColor = [UIColor clearColor];
     self.titleLabel.text = self.title;
@@ -67,13 +65,13 @@
     [self.gradientView addSubview:self.titleLabel];
     
     // Add the drop shadow to the notice view
-    CALayer *noticeLayer = self.gradientView.layer;
-    noticeLayer.shadowColor = [[UIColor blackColor]CGColor];
-    noticeLayer.shadowOffset = CGSizeMake(0.0, 3);
-    noticeLayer.shadowOpacity = 0.50;
-    noticeLayer.masksToBounds = NO;
-    noticeLayer.shouldRasterize = YES;
-    
+//    CALayer *noticeLayer = self.gradientView.layer;
+//    noticeLayer.shadowColor = [[UIColor blackColor]CGColor];
+//    noticeLayer.shadowOffset = CGSizeMake(0.0, 3);
+//    noticeLayer.shadowOpacity = 0.50;
+//    noticeLayer.masksToBounds = NO;
+//    noticeLayer.shouldRasterize = YES;
+//    
     self.hiddenYOrigin = hiddenYOrigin;
     
     [self displayNotice];
